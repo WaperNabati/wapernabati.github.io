@@ -363,6 +363,15 @@ button, input, optgroup, select, textarea {
     margin-top: 0px;
 }
 
+.gaLLery img {
+    transition: all 1.3s ease;
+  }
+
+.gaLLery:hover img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  }
+
 @media only screen and (max-width: 550px) {
 
     #news h1 {
