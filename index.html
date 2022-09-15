@@ -1,232 +1,331 @@
-<?php
-defined('BASEPATH') or exit('No direct script access allowed');
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="HandheldFriendly" content="true">
-	<title>Asosiasi Dosen Bekasi Raya :: HOME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Asosiasi Dosen Bekasi Raya :: DOSEN</title>
 
-	<link rel="stylesheet" href="https://denonbu.jp/dcKr8evJWB/wp-content/themes/denonbu/dest/style.css">
+    <link rel="stylesheet" href="https://denonbu.jp/dcKr8evJWB/wp-content/themes/denonbu/dest/style.css">
     <link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&amp;family=Orbitron:wght@500;700&amp;family=Wallpoet&amp;family=M+PLUS+1p:wght@700&amp;display=swap" rel="stylesheet">
-	<link rel="icon" type="image/png" href="http://localhost/asdos/assets/img/logoAPK.png"> 
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logoAD.png">
 
 </head>
 <style type="text/css">
-
-@media only screen and (max-device-width: 1024px) {
-    #news {
-      background-attachment: scroll;
-    }
-  }
+    
 </style>
 
+
 <body data-menu="close">
-    <div class="wrapper" data-barba="wrapper" aria-live="polite">
-        <header class="header">
-            <div class="header-inner">
-                <a href="https://wapernabati.github.io/" class="header-logo">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/1280px-Slack_Technologies_Logo.svg.png">
-                </a>
-                <nav class="header-nav">
-                    <ul class="header-nav-list">
-                        <li class="header-nav-item" number="01">
-                            <a href="https://wapernabati.github.io/news/" class="header-nav-item-link" title="BERITA">BERITA</a>
-                        </li>
-                        <li class="header-nav-item" number="02">
-                            <span class="header-nav-item-link" title="KEGIATAN">KEGIATAN</span>
-                            <ul class="header-nav-sublist">
-                                <li class="header-nav-sublist-item">
-                                    <a href="https://wapernabati.github.io/kegiatan/" class="header-nav-sublist-item-link" title="Semua Kegiatan">Semua Kegiatan</a>
-                                </li>
-                                <li class="header-nav-sublist-item">
-                                    <a href="https://wapernabati.github.io/pengajaran/" class="header-nav-sublist-item-link" title="Pengajaran">Pengajaran</a>
-                                </li>
-                                <li class="header-nav-sublist-item">
-                                    <a href="https://wapernabati.github.io/penelitian/" class="header-nav-sublist-item-link" title="Penelitian">Penelitian</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="header-nav-item" number="03">
-                            <span class="header-nav-item-link" title="ORGANISASI">ORGANISASI</span>
-                            <ul class="header-nav-sublist">
-                                <li class="header-nav-sublist-item">
-                                    <a href="https://wapernabati.github.io/sejarah/" class="header-nav-sublist-item-link" title="Sejarah">Sejarah</a>
-                                </li>
-                                <li class="header-nav-sublist-item">
-                                    <a href="https://wapernabati.github.io/visi-misi/" class="header-nav-sublist-item-link" title="Visi dan Misi">Visi dan Misi</a>
-                                </li>
-                                <li class="header-nav-sublist-item">
-                                    <a href="https://wapernabati.github.io/tujuan/" class="header-nav-sublist-item-link" title="Tujuan">Tujuan</a>
-                                </li>
-                                <li class="header-nav-sublist-item">
-                                    <a href="https://wapernabati.github.io/komisariat/" class="header-nav-sublist-item-link" title="Komisariat">Komisariat</a>
-                                </li>
-                                <li class="header-nav-sublist-item">
-                                    <a href="https://wapernabati.github.io/program-kerja/" class="header-nav-sublist-item-link" title="Program Kerja">Program Kerja</a>
-                                </li>
-                                <li class="header-nav-sublist-item">
-                                    <a href="https://wapernabati.github.io/pengurus/" class="header-nav-sublist-item-link" title="Pengurus">Pengurus</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="header-nav-item" number="04">
-                            <a href="https://wapernabati.github.io/dosen/" class="header-nav-item-link" title="DOSEN">DOSEN</a>
-                        </li>
-                        <li class="header-nav-item" number="05">
-                            <a href="" target="_blank" class="header-nav-item-link" title="GALERI">
-                                GALERI
-                                <i class="header-otherlink_"></i>
-                            </a>
-                        </li>
-                        <li class="header-nav-item" number="06">
-                            <a href="https://wapernabati.github.io/contact/" class="header-nav-item-link" title="CONTACT">CONTACT</a>
-                        </li>
-                        <li class="header-nav-item" number="07">
-                            <a href="https://wapernabati.github.io/login/" class="header-nav-item-link" title="LOGIN">LOGIN</a>
-                        </li>
-                    </ul>
-                </nav>
-                <button class="header-button">
-                    <div class="header-button-line"></div>
-                </button>
-            </div>
-        </header>
-        
-        <div class="container" data-barba="container" data-barba-namespace="movie">
-            <!-- <img src="img/花芽すみれ.png" alt="KagaSumire" width="100%" class="bannerHome"> -->
-            <div id="slideNews" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" style="border-radius:0;">
-                    <div class="carousel-item active">
-                        <img src="img/花芽すみれ.png" class="d-block w-100" alt="fubuKi">
-                        <!-- <div class="carousel-caption">
-                            <a href="#" style="text-decoration: none;color: #000;">
-                                <h1 class="kegiatan-title">
-                                    電音部新曲「Do You Even DJ? (feat. Neko Hacker)」発表！OFUTONEコラボグッズも販売開始！
-                                </h1>
-                            </a>
-                        </div> -->
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/banner_saki.jpg" class="d-block w-100" alt="ProSeka">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/ramnue.jpg" class="d-block w-100" alt="Lesbi">
-                    </div>
-                </div>
-            </div>
-            <div class="container content" data-barba="container">
-                <section id="about" style="background: #FFF;">
-                    <div class="container-title loGo">
-                        <img src="https://pbs.twimg.com/profile_images/469970994153545729/l6Wy4R3E_400x400.png" alt="logoHD" width="250" height="250">
-                        <ul class="movie-list" style="color: #000;padding-bottom: 60px;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ex vel eos cumque nostrum corrupti minus aperiam iste repudiandae nisi, ratione, commodi tempora dolores consequatur nesciunt modi qui maiores eius.
-                            Consequatur doloremque delectus laudantium modi inventore aut quasi magnam magni nulla harum. Eligendi nulla numquam itaque doloremque, iure cumque perspiciatis totam blanditiis facilis nostrum officiis dignissimos, fuga officia laudantium dolor?
-                            Eligendi modi, obcaecati beatae placeat corrupti praesentium, temporibus veniam nulla quibusdam sint quae laudantium dolores cupiditate assumenda nesciunt sunt error ea et odio voluptatibus amet? Beatae accusamus modi officia aspernatur!
-                            Corporis at aspernatur eum expedita consectetur, ullam impedit optio reprehenderit tempora quibusdam, soluta itaque maiores facere, est laudantium eveniet repellat! Eos amet obcaecati praesentium totam dolores incidunt dolor, ipsam exercitationem!
-                            Quam quos earum error eius totam architecto et, beatae illo voluptates doloremque autem a perferendis! Minus beatae atque fuga doloremque assumenda velit reprehenderit, corporis ab quis, repellat optio ipsa libero?
-                        </ul>
-                    </div>
-                </section>
-                <section id="news">
-                    <div class="container-title">
-                        <img src="https://denonbu.jp/assets/img/news/ttl.png" width="680" alt="NEWS">
-                    </div>
-                    <ul class="movie-list">
-                        <a href="#">
-                            <li class="movie-item">
-                                <div class="movie-item-button">
-                                <figure class="movie-item-thumb">
-                                    <figure class="news-item-thumb-main" style="background-image:url(img/TenmaSaki02.png);"></figure>
-                                    <a data-iziModal-open="#hapusBerita" rel="next" data-position="left" data-tooltip="Hapus Berita" data-delay="50" style='color:#FFF;'>
-                                        <span class='movie-item-category'>Berita</span>
-                                    </a>
-                                </figure>
-                                <div class="movie-item-detail">
-                                    <div class="movie-item-date">11 September 2022</div>
-                                    <div class="movie-item-title">Welcome to the Classroom of the Elite Season 2</div>
-                                </div>
-                                </div>
+    <header class="header">
+        <div class="header-inner">
+            <a href="https://wapernabati.github.io/" class="header-logo">
+                <img src="img/nyoba.png">
+            </a>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item" number="01">
+                        <a href="https://wapernabati.github.io/news/" class="header-nav-item-link" title="BERITA">BERITA</a>
+                    </li>
+                    <li class="header-nav-item" number="02">
+                        <span class="header-nav-item-link" title="KEGIATAN">KEGIATAN</span>
+                        <ul class="header-nav-sublist">
+                            <li class="header-nav-sublist-item">
+                                <a href="https://wapernabati.github.io/kegiatan/" class="header-nav-sublist-item-link" title="Semua Kegiatan">Semua Kegiatan</a>
                             </li>
-                        </a>
-                        <a href="#">
-                            <li class="movie-item">
-                                <div class="movie-item-button">
-                                <figure class="movie-item-thumb">
-                                    <figure class="news-item-thumb-main" style="background-image:url(img/Runa67.png);"></figure>
-                                    <a data-iziModal-open="#hapusBerita" rel="next" data-position="left" data-tooltip="Hapus Berita" data-delay="50" style='color:#FFF;'>
-                                        <span class='movie-item-category'>BERITA</span>
-                                    </a>
-                                </figure>
-                                <div class="movie-item-detail">
-                                    <div class="movie-item-date">11 September 2022</div>
-                                    <div class="movie-item-title">神はサイコロを振らない - 「タイムファクター」【Official Music Video】</div>
-                                </div>
-                                </div>
+                            <li class="header-nav-sublist-item">
+                                <a href="https://wapernabati.github.io/pengajaran/" class="header-nav-sublist-item-link" title="Pengajaran">Pengajaran</a>
                             </li>
-                        </a>
-                        <a href="#">
-                            <li class="movie-item">
-                                <div class="movie-item-button">
-                                <figure class="movie-item-thumb">
-                                    <figure class="news-item-thumb-main" style="background-image:url(img/YoisakiKanade03.png);"></figure>
-                                    <a data-iziModal-open="#hapusBerita" rel="next" data-position="left" data-tooltip="Hapus Berita" data-delay="50" style='color:#FFF;'>
-                                        <span class='movie-item-category'>BERITA</span>
-                                    </a>
-                                </figure>
-                                <div class="movie-item-detail">
-                                    <div class="movie-item-date">11 September 2022</div>
-                                    <div class="movie-item-title">ボカコレコラボ企画「ボカセカ」実施＆ニコニコ動画にて2DMV・3DMVの公開決定！</div>
-                                </div>
-                                </div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="movie-item">
-                                <div class="movie-item-button">
-                                <figure class="movie-item-thumb">
-                                    <figure class="news-item-thumb-main" style="background-image:url(img/ProSeka.png);"></figure>
-                                    <a data-iziModal-open="#hapusBerita" rel="next" data-position="left" data-tooltip="Hapus Berita" data-delay="50" style='color:#FFF;'>
-                                        <span class='movie-item-category'>BERITA</span>
-                                    </a>
-                                </figure>
-                                <div class="movie-item-detail">
-                                    <div class="movie-item-date">11 September 2022</div>
-                                    <div class="movie-item-title">二次創作ガイドライン違反、リーク行為等の利用規約違反に対する措置について</div>
-                                </div>
-                                </div>
-                            </li>
-                        </a>
-                    </ul>
-                    <div class="single-navi" style="padding-bottom: 60px;margin-top: 20px;">
-                        <ul class="single-navi-list">
-                            <li class="single-navi-item" data-navi="back">
-                                <a href="http://localhost/asdos/news">
-                                    <span>See More</span>
-                                </a>
+                            <li class="header-nav-sublist-item">
+                                <a href="https://wapernabati.github.io/penelitian/" class="header-nav-sublist-item-link" title="Penelitian">Penelitian</a>
                             </li>
                         </ul>
-                    </div>
-                </section>
-            </div>
+                    </li>
+                    <li class="header-nav-item" number="03">
+                        <span class="header-nav-item-link" title="ORGANISASI">ORGANISASI</span>
+                        <ul class="header-nav-sublist">
+                            <li class="header-nav-sublist-item">
+                                <a href="https://wapernabati.github.io/sejarah/" class="header-nav-sublist-item-link" title="Sejarah">Sejarah</a>
+                            </li>
+                            <li class="header-nav-sublist-item">
+                                <a href="https://wapernabati.github.io/visi-misi/" class="header-nav-sublist-item-link" title="Visi dan Misi">Visi dan Misi</a>
+                            </li>
+                            <li class="header-nav-sublist-item">
+                                <a href="https://wapernabati.github.io/tujuan/" class="header-nav-sublist-item-link" title="Tujuan">Tujuan</a>
+                            </li>
+                            <li class="header-nav-sublist-item">
+                                <a href="https://wapernabati.github.io/komisariat/" class="header-nav-sublist-item-link" title="Komisariat">Komisariat</a>
+                            </li>
+                            <li class="header-nav-sublist-item">
+                                <a href="https://wapernabati.github.io/program-kerja/" class="header-nav-sublist-item-link" title="Program Kerja">Program Kerja</a>
+                            </li>
+                            <li class="header-nav-sublist-item">
+                                <a href="https://wapernabati.github.io/pengurus/" class="header-nav-sublist-item-link" title="Pengurus">Pengurus</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header-nav-item" number="04">
+                        <a href="https://wapernabati.github.io/dosen/" class="header-nav-item-link" title="DOSEN">DOSEN</a>
+                    </li>
+                    <li class="header-nav-item" number="05">
+                        <a href="" target="_blank" class="header-nav-item-link" title="GALERI">
+                            GALERI
+                            <i class="header-otherlink_"></i>
+                        </a>
+                    </li>
+                    <li class="header-nav-item" number="06">
+                        <a href="https://wapernabati.github.io/contact/" class="header-nav-item-link" title="CONTACT">CONTACT</a>
+                    </li>
+                    <li class="header-nav-item" number="07">
+                        <a href="https://wapernabati.github.io/login/" class="header-nav-item-link" title="LOGIN">LOGIN</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header-button">
+                <div class="header-button-line"></div>
+            </button>
         </div>
-    </div>
+    </header>
+
+<div class="container" data-barba="container" data-barba-namespace="movie">
+	<div id="slideNews" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner" style="border-radius:0;">
+			<div class="carousel-item active">
+				<img src="http://localhost/asdosbey/assets/img/galeri/YoisakiKanade.png" class="d-block w-100" alt="ProSekaMember">
+				<!-- <div class="carousel-caption">
+					<a href="#" style="text-decoration: none;color: #000;">
+						<h1 class="kegiatan-title">
+							Some Title 1
+						</h1>
+					</a>
+				</div> -->
+			</div>
+			<div class="carousel-item">
+				<img src="http://localhost/asdosbey/assets/img/galeri/NightCord25.png" class="d-block w-100" alt="Illustrator">
+				<!-- <div class="carousel-caption">
+					<a href="#" style="text-decoration: none;color: #000;">
+						<h1 class="kegiatan-title">
+							Some Title 2
+						</h1>
+					</a>
+				</div> -->
+			</div>
+			<div class="carousel-item">
+				<img src="http://localhost/asdosbey/assets/img/galeri/ProSeka.png" class="d-block w-100" alt="ProSeka">
+				<!-- <div class="carousel-caption">
+					<a href="#" style="text-decoration: none;color: #000;">
+						<h1 class="kegiatan-title">
+							Some Title 3
+						</h1>
+					</a>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<section id="about" class="justify-content-center">
+		<div class="container-title logoS">
+			<img src="#" alt="logoHD" width="300" height="300">
+		</div>
+		<ul class="movie-list" style="width: 100%;margin-top:0;">
+			<div class="row">
+				<div class="col-lg-6 judul">
+					<h1 class="tulisanTengah" data-aos="fade-right" data-aos-duration="1000">
+						<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16" style="line-height: 1.1;">
+							<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+						</svg>
+						About
+					</h1>
+					<div class="judul-body" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda est veritatis quidem quos enim fugiat nobis dolore, hic alias minus delectus vitae aliquam aliquid deserunt debitis nemo molestiae nihil.
+						Natus sit, voluptatibus architecto voluptate accusamus voluptatem deleniti beatae labore porro, cum animi quia ratione sint est dolorum quibusdam perferendis eligendi sed modi eaque nemo inventore. Ipsa animi ab dicta!
+						Accusantium, magnam? Ea tempora et sunt at voluptate eum repellat illum nihil.
+					</div>
+				</div>
+				<div class="col-lg-6 judul">
+					<h1 class="tulisanTengah" data-aos="fade-left" data-aos-duration="1000">
+						<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-bullseye" viewBox="0 0 16 16">
+							<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+							<path d="M8 13A5 5 0 1 1 8 3a5 5 0 0 1 0 10zm0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+							<path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
+							<path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+						</svg>
+						Mission
+					</h1>
+					<div class="judul-body" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda est veritatis quidem quos enim fugiat nobis dolore, hic alias minus delectus vitae aliquam aliquid deserunt debitis nemo molestiae nihil.
+						Natus sit, voluptatibus architecto voluptate accusamus voluptatem deleniti beatae labore porro, cum animi quia ratione sint est dolorum quibusdam perferendis eligendi sed modi eaque nemo inventore. Ipsa animi ab dicta!
+						Accusantium, magnam? Ea tempora et sunt at voluptate eum repellat illum nihil.
+					</div>
+				</div>
+			</div>
+		</ul>
+	</section>
+	<section id="news" style="padding-bottom: 60px;">
+		<div class="container-title">
+			<h1 style="color: #FFF;" data-aos="fade-in" data-aos-duration="1000">News</h1>
+		</div>
+		<div class="movie-list" style="width: 100%;margin-top:20px;">
+			
+				<a href="">
+					<li class="movie-item">
+						<div class="movie-item-button">
+							<figure class="movie-item-thumb">
+								<figure class="news-item-thumb-main" style="background-image:url();"></figure>
+								<a style='color:#FFF;' href="">
+									<span class='movie-item-category' style="text-transform: uppercase;">Berita</span>
+								</a>
+							</figure>
+							<div class="movie-item-detail">
+								<div class="movie-item-date">
+									
+								</div>
+								<div class="movie-item-title"></div>
+							</div>
+						</div>
+					</li>
+				</a>
+			<div class="single-navi" style="margin:0 auto 10px auto;width:100%;">
+				<ul class="single-navi-list">
+					<li class="single-navi-item" data-navi="back">
+						<a href="http://localhost/asdosbey/news" style="border-radius: 3px;">
+							<span>Semua Berita</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- <?= $this->pagination->create_links(); ?> -->
+		</div>
+	</section>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+		<path fill="#20b9b9" fill-opacity="1" d="M0,256L30,256C60,256,120,256,180,250.7C240,245,300,235,360,192C420,149,480,75,540,69.3C600,64,660,128,720,165.3C780,203,840,213,900,234.7C960,256,1020,288,1080,261.3C1140,235,1200,149,1260,128C1320,107,1380,149,1410,170.7L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path>
+	</svg>
+	<section id="gallery">
+		<div class="container-title">
+			<h1 data-aos="fade-in" data-aos-duration="1000">Gallery</h1>
+		</div>
+		<ul class="movie-list">
+			<div class="row">
+				<div class="col-lg-6">
+					<a href="img/galeri/YoisakiKanade.png" data-lightbox="roadtrip">
+						<div class="gaLLery" style="position: relative;" data-aos="fade-up" data-aos-duration="1000">
+							<img src="img/galeri/YoisakiKanade.png" class="card-img-top" alt="pj01">
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-6">
+					<a href="img/galeri/OtoriEmu.png" data-lightbox="roadtrip">
+						<div class="gaLLery" style="position: relative;" data-aos="fade-down" data-aos-duration="1000">
+							<img src="img/galeri/OtoriEmu.png" class="card-img-top" alt="pj01">
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-6">
+					<a href="img/galeri/HoshinoIchika02.png" data-lightbox="roadtrip">
+						<div class="gaLLery" style="position: relative;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
+							<img src="img/galeri/HoshinoIchika02.png" class="card-img-top" alt="pj01">
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-6">
+					<a href="img/galeri/Mafuyu.png" data-lightbox="roadtrip">
+						<div class="gaLLery" style="position: relative;" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
+							<img src="img/galeri/Mafuyu.png" class="card-img-top" alt="pj01">
+						</div>
+					</a>
+				</div>
+			</div>
+		</ul>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path fill="#20b9b9" fill-opacity="1" d="M0,32L30,37.3C60,43,120,53,180,96C240,139,300,213,360,229.3C420,245,480,203,540,192C600,181,660,203,720,176C780,149,840,75,900,53.3C960,32,1020,64,1080,106.7C1140,149,1200,203,1260,202.7C1320,203,1380,149,1410,122.7L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+		</svg>
+	</section>
+	<section id="contact" style="background: #20b9b9;">
+		<div class="container-title">
+			<h1 data-aos="fade-in" data-aos-duration="1000">Contact</h1>
+		</div>
+		<ul class="movie-list" style="margin-top: 10px;">
+			<div class="row justify-content-center" style="width: 100%;">
+				<div class="col" style="padding-right:0;">
+					<form method="POST" name="wafernabati-contact" data-aos="fade-up" data-aos-duration="1000" style="font-family: 'Orbitron', sans-serif;">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+						<textarea class="form-control" id="message" name="message" cols="50" rows="10" style="height: 200px" placeholder="Message"></textarea>
+						<button type="submit" class="btn btnSend" style="font-weight: bold;">
+							Send Message
+						</button>
+					</form>
+				</div>
+			</div>
+		</ul>
+		<ul class="movie-list">
+			<!-- <div class="row">
+				<div class="col">
+					<span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+							<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+						</svg>
+						Address:
+						Jl. Mayor M. Hasibuan No 68, Margahayu, Bekasi Timur, Kota Bekasi, Jawa Barat 17113
+					</span>
+				</div>
+				<div class="col">
+					<span>Phone</span>
+				</div>
+				<div class="col">
+					<span>Email</span>
+				</div>
+			</div> -->
+			<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0859557019885!2d107.000413214351!3d-6.252404762957508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c2cefa7aa6d%3A0xc81cd4a4cf03f02d!2sSTMIK%20BANI%20SALEH!5e0!3m2!1sid!2sid!4v1592900770230!5m2!1sid!2sid" width="100%" height="750" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+		</ul>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -4px;">
+			<path fill="#ffffff" fill-opacity="1" d="M0,32L30,64C60,96,120,160,180,154.7C240,149,300,75,360,48C420,21,480,43,540,80C600,117,660,171,720,176C780,181,840,139,900,133.3C960,128,1020,160,1080,197.3C1140,235,1200,277,1260,261.3C1320,245,1380,171,1410,133.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+		</svg>
+	</section>
+</div>
+</div>
 <div class="footer-wrapper">
     <script src="js/footerS.js"></script>
 </div>
-    <!-- JS -->
-    <script src="https://denonbu.jp/dcKr8evJWB/wp-content/themes/denonbu/dest/script.js?t=2"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <script>
-        
-    </script>
-    <script src="js/ourScripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="<?= base_url('assets/js/lightbox-plus-jquery.min.js') ?>"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/ourScripts.js"></script>
+<script src="<?= base_url('assets/js/lightbox-plus-jquery.min.js') ?>"></script>
+<!-- <script src="http://localhost/asdos/assets/js/ourScript.js"></script> -->
+<script>
+  const ProjectKanan = document.querySelectorAll('.card-right');
+  const ProjectKiri = document.querySelectorAll('.card-left');
+
+  ProjectKanan.forEach((card, i) => {
+    card.dataset.aos = 'fade-right';
+    card.dataset.aosDelay = i * 50;
+    card.dataset.aosDuration = 1000;
+  });
+
+  ProjectKiri.forEach((card, i) => {
+    card.dataset.aos = 'fade-left';
+    card.dataset.aosDelay = i * 50;
+    card.dataset.aosDuration = 1000;
+  });
+
+  AOS.init();
+
+  lightbox.option({
+    'wrapAround': true
+  })
+</script>
+<script>
+  lightbox.option({
+    'wrapAround': true
+  })
+</script>
 </body>
+
 </html>
